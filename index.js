@@ -11,7 +11,7 @@ var WEB_NODE = process.env.WEB_NODE || 'WEB_NODE';
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Node.js server ' + + ' is running on Host: ' + os.hostname() + '\n' +
+  res.send('Node.js server ' + WEB_NODE + ' is running on Host: ' + os.hostname() + '\n' +
            'List of network interfaces:\n' + util.inspect(os.networkInterfaces()) + '\n');
 });
 
