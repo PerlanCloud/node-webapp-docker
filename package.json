@@ -1,0 +1,16 @@
+{
+  "name": "node-webapp-docker",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello World app on Ubuntu using docker",
+  "author": "Perlan Cloud <perlancloud@gmail.com>",
+  "dependencies": {
+    "express": "*"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}

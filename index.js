@@ -1,8 +1,3 @@
-# perlan/node-webapp
-
-Docker Image for an example web app in Node.js
-
-```javascript
 var express = require('express');
 
 // Constants
@@ -16,4 +11,3 @@ app.get('/', function (req, res) {
 
 app.listen(PORT)
 console.log('Running on http://localhost:' + PORT);
-```
